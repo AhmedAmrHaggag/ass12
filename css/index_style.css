@@ -1,0 +1,109 @@
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: #1E202B;
+    }
+    
+    header {
+        background:linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)), url(../images/WhatsApp\ Image\ 2023-08-17\ at\ 1.40.17\ AM.jpeg);
+        /* background-image: url(../images/WhatsApp\ Image\ 2023-08-17\ at\ 1.40.17\ AM.jpeg); */
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header .container {
+        padding-top:15%;
+        color: white !important;
+    }
+    header span {
+        padding-top:25% !important;
+        color: white !important;
+    }
+    header a:hover {
+        color: red !important;
+    }
+
+    .photo{
+        background:linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)), url(../images/WhatsApp\ Image\ 2023-08-17\ at\ 1.40.18\ AM.jpeg);
+        /* background-image: url(../images/WhatsApp\ Image\ 2023-08-17\ at\ 1.40.18\ AM.jpeg); */
+        /* height: 400px; */
+        background-size: cover;
+    }
+
+    .col-md-3 {
+        padding: 100px 50px;
+        
+    }
+
+    .item{
+        display: none;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      .slider h1 {
+        cursor: pointer;
+      }
+
+      .w-5 {
+        width: 5%;
+        margin: 1%;
+      }
+      .w-5:hover {
+        background-color: red !important;
+        color: white !important;
+        
+      }
+
+      .email {
+        color: red;
+      }
+
+      .test{
+        background-color: rgba(214, 46, 51 , 0.6) ;
+       
+      }
+
+      .item{
+        background-color: #ccc !important;
+      }
+     
+
+    
+    
+    
